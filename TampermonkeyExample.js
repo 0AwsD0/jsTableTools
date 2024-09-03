@@ -17,8 +17,8 @@
         delRowsTdTextConditionEqualTo("tr.mat-row", ".cdk-row>.cdk-column-studentRegCount", "0");
     }, 5000));
     //for next button
-    button = document.querySelector(".mat-paginator-navigation-next");
-    button.addEventListener("click", () => setTimeout(function(){
+    button2 = document.querySelector(".mat-paginator-navigation-next");
+    button2.addEventListener("click", () => setTimeout(function(){
 		delRowsTdTextConditionEqualTo("tr.mat-row", ".cdk-row>.cdk-column-studentRegCount", "0");
 	}, 3000));
 
